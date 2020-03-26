@@ -1,0 +1,31 @@
+brew 'autoconf'
+brew 'automake'
+brew 'coreutils'
+brew 'vim'
+brew 'grep'
+brew 'openssh'
+brew 'travis'
+brew 'nvm'
+brew 'yarn'
+
+cask 'spotify'
+cask 'dropbox'
+
+cask 'sublime-text'
+cask 'visual-studio-code'
+cask 'sourcetree'
+cask 'postman'
+cask 'docker'
+cask 'telegram-desktop'
+cask 'appcleaner'
+
+tap 'heroku/brew'
+brew 'heroku'
+
+cask 'fastlane'
+brew 'swiftlint'
+brew 'carthage'
+brew 'cocoapods'
+
+tap 'caskroom/fonts'
+cask 'font-fira-code'

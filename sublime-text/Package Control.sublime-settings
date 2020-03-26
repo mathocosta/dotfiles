@@ -7,10 +7,8 @@
 	[
 		"Alignment",
 		"All Autocomplete",
-		"AutoFileName",
-		"Babel",
-		"BracketHighlighter",
-		"CodeComplice",
+		"AutoFileName"
+		"BracketHighlighter"
 		"DocBlockr",
 		"EditorConfig",
 		"Emmet",
