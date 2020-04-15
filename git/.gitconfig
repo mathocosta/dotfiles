@@ -1,8 +1,8 @@
 [user]
-  name = Matheus Oliveira Costa
-  email = matheusoliveiracos@gmail.com
+	name = Matheus Oliveira Costa
+	email = matheusoliveiracos@gmail.com
 [alias]
-  st = status
+  st = status -sb
   ci = commit
   a = add
   ps = push
@@ -18,8 +18,9 @@
 [github]
   user = mathocosta
 [core]
-  autocrlf = true
+  autocrlf = input
   excludesfile = /Users/mathocosta/.gitignore_global
+  pager = diff-so-fancy | less --tabs=4 -RFX
 [gui]
   encoding = utf-8
 [i18n]

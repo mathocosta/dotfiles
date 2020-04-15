@@ -7,6 +7,7 @@ brew 'openssh'
 brew 'travis'
 brew 'nvm'
 brew 'yarn'
+Brew 'diff-so-fancy'
 
 cask 'spotify'
 cask 'dropbox'
