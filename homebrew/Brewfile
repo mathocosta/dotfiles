@@ -18,6 +18,7 @@ cask 'visual-studio-code'
 cask 'sourcetree'
 cask 'insomnia'
 cask 'appcleaner'
+cask 'fanny'
 
 brew 'fastlane'
 brew 'swiftlint'
