@@ -24,6 +24,6 @@ brew 'swiftlint'
 brew 'carthage'
 brew 'cocoapods'
 
-tap 'caskroom/fonts'
+tap 'homebrew/cask-fonts'
 cask 'font-fira-code'
 cask 'font-jetbrains-mono'
