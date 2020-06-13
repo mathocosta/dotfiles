@@ -1,6 +1,7 @@
 brew 'autoconf'
 brew 'automake'
 brew 'coreutils'
+brew 'git'
 brew 'vim'
 brew 'grep'
 brew 'node'
