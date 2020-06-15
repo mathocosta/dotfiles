@@ -40,7 +40,7 @@ defaults write com.apple.systemuiserver menuExtras -array \
 defaults write com.apple.menuextra.clock DateFormat -string "EEE d MMM HH:mm"
 
 # Show battery percentage
-defatults write com.apple.menuextra.battery ShowPercent -string "YES"
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
@@ -110,6 +110,15 @@ defaults write com.apple.dock tilesize -int 45
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Automatically rearrange Spaces based on most recent use
+defaults write com.apple.dock mru-spaces -bool false
+
+# Turn on Magnification
+defaults write com.apple.dock magnification -bool true
+
+# Magnification icon size 65 pixels
+defaults write com.apple.dock largesize -int 65
+
 ###############################################################################
 # Safari & WebKit                                                             #
 ###############################################################################
@@ -156,6 +165,5 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 defaults write com.apple.terminal StringEncodings -array 4
 
 killall Dock
-
 
 echo "Done. Note that some of these changes require a logout/restart to take effect."
