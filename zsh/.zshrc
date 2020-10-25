@@ -43,14 +43,6 @@ alias cls="clear"
 # PATH
 export PATH="$HOME/.fastlane/bin:$PATH"
 
-# added by travis gem
-[ -f /Users/mathocosta/.travis/travis.sh ] && source /Users/mathocosta/.travis/travis.sh
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-export PATH="/usr/local/opt/openssl/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
-
 # NVM
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm

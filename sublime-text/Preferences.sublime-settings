@@ -1,77 +1,48 @@
 {
-	"alignment_chars":
-	[
-		"=",
-		":",
-		"=>",
-		"//"
-	],
-	"always_show_minimap_viewport": true,
-	"binary_file_patterns":
-	[
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
-		"*.dds",
-		"*.ico",
-		"*.eot",
-		"*.pdf",
-		"*.swf",
-		"*.jar",
-		"*.zip",
-		"node_modules/**"
-	],
-	"bold_folder_labels": true,
-	"caret_extra_bottom": 1,
-	"caret_extra_top": 1,
-	"caret_extra_width": 1,
-	"caret_style": "phase",
-	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-	"default_line_ending": "unix",
-	"draw_white_space": "all",
-	"enable_tab_scrolling": false,
-	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Fira Code",
-	"font_options":
-	[
-		"no_italic",
-		"directwrite",
-		"subpixel_antialias",
-		"dlig"
-	],
-	"font_size": 15,
-	"highlight_line": true,
-	"ignored_packages":
-	[
-		"BracketHighlighter",
-		"EditorConfig",
-		"ProjectManager",
-		"Sass",
-		"SideBarEnhancements",
-		"Vintage"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"line_numbers": false,
-	"line_padding_bottom": 2.5,
-	"line_padding_top": 2.5,
-	"margin": 10,
-	"overlay_scroll_bars": "disabled",
-	"rulers":
-	[
-		100
-	],
-	"scroll_past_end": true,
-	"tab_size": 4,
-	"theme": "Adaptive.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+  "alignment_chars": ["=", ":", "=>", "//"],
+  "always_show_minimap_viewport": true,
+  "binary_file_patterns": [
+    "*.jpg",
+    "*.jpeg",
+    "*.png",
+    "*.gif",
+    "*.ttf",
+    "*.tga",
+    "*.dds",
+    "*.ico",
+    "*.eot",
+    "*.pdf",
+    "*.swf",
+    "*.jar",
+    "*.zip",
+    "node_modules/**"
+  ],
+  "bold_folder_labels": true,
+  "caret_extra_bottom": 1,
+  "caret_extra_top": 1,
+  "caret_extra_width": 1,
+  "caret_style": "phase",
+  "close_windows_when_empty": false,
+  "default_line_ending": "unix",
+  "draw_white_space": "all",
+  "enable_tab_scrolling": false,
+  "ensure_newline_at_eof_on_save": true,
+  "font_face": "Fira Code",
+  "font_options": ["no_italic", "directwrite", "subpixel_antialias", "dlig"],
+  "font_size": 15,
+  "highlight_line": true,
+  "ignored_packages": ["Vintage"],
+  "indent_guide_options": ["draw_normal", "draw_active"],
+  "line_numbers": false,
+  "line_padding_bottom": 2.5,
+  "line_padding_top": 2.5,
+  "margin": 10,
+  "overlay_scroll_bars": "disabled",
+  "rulers": [100],
+  "scroll_past_end": true,
+  "tab_size": 4,
+  "theme": "Adaptive.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": true
 }
