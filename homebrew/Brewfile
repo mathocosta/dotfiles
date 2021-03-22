@@ -12,12 +12,13 @@ cask 'spotify'
 cask 'firefox'
 cask 'telegram'
 cask 'discord'
-
-cask 'sublime-text'
-cask 'visual-studio-code'
-cask 'insomnia'
+cask 'vlc'
 cask 'appcleaner'
 cask 'fanny'
+
+cask 'java'
+cask 'android-studio'
+cask 'visual-studio-code'
 
 brew 'fastlane'
 brew 'swiftlint'

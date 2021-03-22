@@ -5,7 +5,7 @@
   st = status -sb
   ci = commit
   a = add
-  ps = push
+  ps = push -u
   pl = pull
   co = checkout
   cob = checkout -b

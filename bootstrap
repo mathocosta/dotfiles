@@ -1,0 +1,15 @@
+
+# Symlink config files
+ln -sv "${PWD}/git/.gitconfig" ~
+ln -sv "${PWD}/git/.gitignore_global" ~
+ln -sv "${PWD}/zsh/.zshrc" ~
+
+# Install Homebrew and dependencies
+sh "${PWD}/homebrew/install.sh"
+
+# Install Oh my zsh
+sh "${PWD}/zsh/install.sh"
+
+# Setup macOS
+sh "${PWD}/macos/update.sh"
+sh "${PWD}/macos/setup.sh"
