@@ -1,3 +1,5 @@
+[init]
+  defaultBranch = main
 [user]
   name = Matheus Oliveira Costa
   email = matheusoliveiracos@gmail.com
@@ -5,7 +7,8 @@
   st = status -sb
   ci = commit
   a = add
-  ps = push
+  aa = add --all
+  ps = push -u
   pl = pull
   co = checkout
   cob = checkout -b
@@ -25,8 +28,10 @@
   autocrlf = input
   excludesfile = ~/.gitignore_global
   pager = diff-so-fancy | less --tabs=4 -RFX
-[gui]
-  encoding = utf-8
+[merge]
+  ff = only
+[fetch]
+  prune = true
 [i18n]
   commitencoding = utf-8
   logoutputencoding = utf-8
