@@ -40,12 +40,10 @@ source $ZSH/oh-my-zsh.sh
 alias ls="ls -all"
 alias cls="clear"
 
+# VARIABLES
+export JAVA_HOME=$(/usr/libexec/java_home)
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+
 # PATH
 export PATH="$HOME/.fastlane/bin:$PATH"
-
-# NVM
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
-
+export PATH="$PATH:$HOME/flutter-dev/flutter/bin"

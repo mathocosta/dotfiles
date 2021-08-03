@@ -7,17 +7,18 @@ brew 'grep'
 brew 'node'
 brew 'openssh'
 brew 'diff-so-fancy'
+brew 'java'
 
 cask 'spotify'
 cask 'firefox'
 cask 'telegram'
-cask 'discord'
-
-cask 'sublime-text'
-cask 'visual-studio-code'
-cask 'insomnia'
+cask 'vlc'
 cask 'appcleaner'
 cask 'fanny'
+cask 'the-unarchiver'
+
+cask 'android-studio'
+cask 'visual-studio-code'
 
 brew 'fastlane'
 brew 'swiftlint'
