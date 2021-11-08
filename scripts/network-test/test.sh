@@ -12,8 +12,8 @@ OUTPUT_FILE="/tmp/connection-logs-$DATE"
 
 # If ping is successful, $? will return 0. If not, it will return another number. 
 if [ $? -eq 0 ]; then
-  echo "connected - $TIMESTAMP" >> $OUTPUT_FILE
+  echo "$TIMESTAMP | connected" >> $OUTPUT_FILE
   exit 0
 else
-  echo "disconnected - $TIMESTAMP" >> $OUTPUT_FILE
+  echo "$TIMESTAMP | disconnected" >> $OUTPUT_FILE
 fi
