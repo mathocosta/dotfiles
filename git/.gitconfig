@@ -1,8 +1,5 @@
 [init]
   defaultBranch = main
-[user]
-  name = Matheus Oliveira Costa
-  email = matheusoliveiracos@gmail.com
 [alias]
   st = status -sb
   ci = commit
@@ -22,8 +19,6 @@
 [color]
   ui = true
   branch = auto
-[github]
-  user = mathocosta
 [core]
   autocrlf = input
   excludesfile = ~/.gitignore_global
@@ -41,3 +36,14 @@
   changed = red
   untracked = cyan
   unmerged = red
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[credential]
+	helper = osxkeychain
+[includeIf "gitdir:~/Developer/github/"]
+  path = ~/.gitconfig-github
+# [includeIf "gitdir:~/Developer/<path>/"]
+#   path = ~/.gitconfig-<path>

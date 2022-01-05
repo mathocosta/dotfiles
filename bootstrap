@@ -3,6 +3,7 @@
 ln -sv "${PWD}/git/.gitconfig" ~
 ln -sv "${PWD}/git/.gitignore_global" ~
 ln -sv "${PWD}/zsh/.zshrc" ~
+ln -sv "${PWD}/git/.gitconfig-github" ~
 
 # Install Homebrew and dependencies
 sh "${PWD}/homebrew/install.sh"
