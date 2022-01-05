@@ -14,3 +14,6 @@ sh "${PWD}/zsh/install.sh"
 # Setup macOS
 sh "${PWD}/macos/update.sh"
 sh "${PWD}/macos/setup.sh"
+
+# Setup Xcode
+sh "${PWD}/xcode/setup.sh"
