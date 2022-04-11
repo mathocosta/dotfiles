@@ -14,6 +14,13 @@ XCODE_USER_TEMPLATES_DIR=~/Library/Developer/Xcode/Templates/File\ Templates
 mkdir -p "$XCODE_USER_TEMPLATES_DIR"
 cp -R $TEMPLATES_DIR "$XCODE_USER_TEMPLATES_DIR"
 
-echo "Custom Xcode themes and templates have been installed"
+# 3. Copy snippets
+SNIPPETS_DIR=${PWD}/xcode/snippets/*
+XCODE_USER_SNIPPETS_DIR=~/Library/Developer/Xcode/UserData/CodeSnippets
+
+mkdir -p "$XCODE_USER_SNIPPETS_DIR"
+cp -R $SNIPPETS_DIR "$XCODE_USER_SNIPPETS_DIR"
+
+echo "Custom Xcode themes, templates and snippets have been installed"
 
 exit 0
