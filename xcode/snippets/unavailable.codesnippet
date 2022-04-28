@@ -3,26 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark</string>
+	<string>unavailable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
-		<string>CodeBlock</string>
 		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: &lt;#name#&gt;</string>
+	<string>@available(*, unavailable)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>40890C04-6E94-45A1-A209-FCD345F4BF1D</string>
+	<string>EAE9C87A-C00F-47EC-BD95-02ED312A5163</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Create a mark message</string>
+	<string>Marks methods or declarations as unavailable.</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Mark</string>
+	<string>API Unavailable</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
