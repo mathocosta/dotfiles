@@ -36,14 +36,10 @@ plugins=(git git-flow brew)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-alias ls="ls -all"
-alias cls="clear"
+# ALIASES
+source "$HOME/zsh_aliases.sh"
 
 # VARIABLES
+export DOTFILES="$HOME/Developer/dotfiles"
 export JAVA_HOME=$(/usr/libexec/java_home)
 export ANDROID_HOME="$HOME/Library/Android/sdk"
-
-# PATH
-export PATH="$HOME/.fastlane/bin:$PATH"
-export PATH="$PATH:$HOME/flutter-dev/flutter/bin"

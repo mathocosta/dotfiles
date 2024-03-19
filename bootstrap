@@ -1,9 +1,6 @@
 
 # Symlink config files
-ln -sv "${PWD}/git/.gitconfig" ~
-ln -sv "${PWD}/git/.gitignore_global" ~
-ln -sv "${PWD}/zsh/.zshrc" ~
-ln -sv "${PWD}/git/.gitconfig-github" ~
+sh "${PWD}/scripts/link-files.sh"
 
 # Install Homebrew and dependencies
 sh "${PWD}/homebrew/install.sh"
