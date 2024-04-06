@@ -6,21 +6,22 @@
 	defaultBranch = main
 
 [alias]
-  st = status -sb
-  ci = commit
-  a = add
-  aa = add --all
-  ps = push -u
-  pl = pull
-  co = checkout
-  cob = checkout -b
-  lg = log --abbrev-commit --left-right --name-only
-  hist = log --pretty=format:\"%h %ad (%ar) | %s%d [author: %an]\" --graph --date=short
-  tree = log --all --decorate --oneline --graph
-  show-last   = show --pretty="format:" --name-only
-  files-commited = log --graph --name-only --oneline
-  this = !git init && git add . && git commit -m \"First commit\"
-  branches = branch -a --sort=-committerdate --format=\"%(color:blue)%(authordate:relative)\t%(color:red)%(authorname)\t%(color:white)%(color:bold)%(refname:short)\"
+    st = status -sb
+    ci = commit -v
+    a = add
+    aa = add --all
+    ps = push -u
+    psho = push -u origin HEAD
+    pl = pull
+    co = checkout
+    cob = checkout -b
+    lg = log --abbrev-commit --left-right --name-only
+    hist = log --pretty=format:\"%h %ad (%ar) | %s%d [author: %an]\" --graph --date=short
+    tree = log --all --decorate --oneline --graph
+    show-last   = show --pretty="format:" --name-only
+    files-commited = log --graph --name-only --oneline
+    this = !git init && git add . && git commit -m \"First commit\"
+    branches = branch -a --sort=-committerdate --format=\"%(color:blue)%(authordate:relative)\t%(color:red)%(authorname)\t%(color:white)%(color:bold)%(refname:short)\"
 
 [color]
 	ui = true
@@ -55,12 +56,6 @@
 	untracked = cyan
 	unmerged = red
 
-[credential]
-	helper = osxkeychain
-
-[github]
-	user = mathocosta
-
 [github]
 	user = mathocosta
 
@@ -69,3 +64,4 @@
 #   path = ~/.gitconfig-github
 # [includeIf "gitdir:~/Developer/<path>/"]
 #   path = ~/.gitconfig-<path>
+

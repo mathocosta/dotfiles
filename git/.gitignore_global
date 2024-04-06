@@ -20,12 +20,6 @@
 *.tar
 *.zip
 
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
-
 # Local configuration file (sdk path, etc) #
 ############################################
 local.properties
