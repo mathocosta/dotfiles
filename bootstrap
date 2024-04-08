@@ -2,15 +2,22 @@
 # Symlink config files
 sh "${PWD}/scripts/link-files.sh"
 
-# Install Homebrew and dependencies
-sh "${PWD}/homebrew/install.sh"
+if [[ "$OSTYPE" == "darwin" ]]; then
+    # Install Homebrew and dependencies
+    sh "${PWD}/homebrew/install.sh"
 
-# Install Oh my zsh
-sh "${PWD}/zsh/install.sh"
+    # Install Oh my zsh
+    sh "${PWD}/zsh/install.sh"
 
-# Setup macOS
-sh "${PWD}/macos/update.sh"
-sh "${PWD}/macos/setup.sh"
+    # Setup macOS
+    sh "${PWD}/macos/update.sh"
+    sh "${PWD}/macos/setup.sh"
 
-# Setup Xcode
-sh "${PWD}/xcode/setup.sh"
+    # Setup Xcode
+    sh "${PWD}/xcode/setup.sh"
+
+elif [[ "$OSTYPE" == "linux-gnu" ]]; then
+
+else
+    echo "Unknown SO :O"
+fi
