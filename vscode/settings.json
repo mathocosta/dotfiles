@@ -1,0 +1,73 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "JetBrains Mono NL",
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "editor.selectionHighlight": false,
+    "editor.minimap.enabled": true,
+    "editor.renderLineHighlight": "all",
+    "editor.letterSpacing": 0.5,
+    "editor.smoothScrolling": true,
+    "editor.suggestSelection": "first",
+    "editor.rulers": [
+        100
+    ],
+    "diffEditor.ignoreTrimWhitespace": true,
+    "explorer.decorations.badges": false,
+    "explorer.autoReveal": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "medium",
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "last",
+    "search.useIgnoreFiles": false,
+    "terminal.integrated.fontSize": 14,
+    "git.autofetch": true,
+    "[javascript]": {
+        "editor.suggestSelection": "recentlyUsed",
+        "editor.suggest.showKeywords": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[javascriptreact]": {
+        "editor.suggestSelection": "recentlyUsed",
+        "editor.suggest.showKeywords": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[typescript]": {
+        "editor.suggestSelection": "recentlyUsed",
+        "editor.suggest.showKeywords": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[typescriptreact]": {
+        "editor.suggestSelection": "recentlyUsed",
+        "editor.suggest.showKeywords": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "editor.fontSize": 15,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "editor.guides.indentation": true,
+    "java.configuration.runtimes": [],
+    "vim.smartRelativeLine": true,
+    "editor.formatOnPaste": true
+}
