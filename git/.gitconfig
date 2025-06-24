@@ -15,6 +15,7 @@
     pl = pull
     co = checkout
     cob = checkout -b
+    cof = !git checkout $(git branch --sort=-committerdate | fzf --reverse)
     lg = log --abbrev-commit --left-right --name-only
     hist = log --pretty=format:\"%h %ad (%ar) | %s%d [author: %an]\" --graph --date=short
     tree = log --all --decorate --oneline --graph
